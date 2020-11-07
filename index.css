@@ -2,12 +2,12 @@
 
 body {
   width: 100%;
-	background-color: #370617;
+	background-color: #FFFFFF;
   font-family: "Lato", sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
   word-spacing: 2px;
-  color: #ffba08;
+  color: #545454;
   font-weight: lighter;
   text-decoration: none;
   font-style: normal;
@@ -20,7 +20,7 @@ h0 {
   font-size: 70px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color: #ffba08;
+  color: #FF6347;
   font-weight: bold;
   text-decoration: none;
   font-style: normal;
@@ -33,7 +33,7 @@ h1 {
   font-size: 60px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color: #9d0208;
+  color: #FF6347;
   font-weight: bold;
   text-decoration: none;
   font-style: normal;
@@ -46,7 +46,7 @@ h2 {
   font-size: 40px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color: #e85d04;
+  color: #FF6347;
   font-weight: bold;
   text-decoration: none;
   font-style: normal;
@@ -60,7 +60,7 @@ h3 {
   font-size: 35px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color: #f48c06;
+  color: #545454;
   font-weight: normal;
   text-decoration: none;
   font-style: normal;
@@ -81,28 +81,37 @@ ol {
   text-align: left;
 }
 
-#container {
-
-}
-
 #title{
-  color: #370617;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 30px;
 }
 
-#navbarDropdown{
-  color: #370617;
+#title:hover {
+  color: #FF9985;
+}
+
+#navbar-link{
+  color: #FFFFFF;
   font-size: 20px;
 }
 
+#navbar-link:hover{
+  color: #FF9985;
+  font-size: 20px;
+}
+
+.navbar-custom {
+    background-color: #FF6347;
+}
+
 #jumbotron{
-  background: url("./assets/background.jpg") center fixed;
+  background: url("./assets/meal.jpg") center fixed;
   background-size: cover;
 }
 
 .small-container{
-  background: url("./assets/background.jpg") center fixed;
+  background: url("./assets/meal.jpg") center fixed;
   background-size: cover;
   height: 50px;
 }
@@ -112,19 +121,20 @@ ol {
 }
 
 #button{
-  background-color: #f48c06;
+  color: #FFFFFF;
+  background-color: #FF6347;
   border: none;
-  box-shadow: 0 8px #9d0208;
+  box-shadow: 0 8px #FF9985;
 }
 
 #button:hover{
-  background-color: #e85d04;
+  background-color: #FF9985;
 }
 
 #button:active{
   transform: translateY(6px);
-  background-color: #e85d04;
-  box-shadow: 0 4px #6a040f;
+  background-color: #FF9985;
+  box-shadow: 0 4px #FF9985;
 }
 
 #image-link:hover{
@@ -134,15 +144,6 @@ ol {
 
 #image-link:active{
   opacity: 70%;
-  background-color: #9d0208;
-}
-
-#navbarDropdown:hover{
-  color: #9d0208;
-}
-
-#dropdown-item:hover{
-  color: white;
   background-color: #9d0208;
 }
 
